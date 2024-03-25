@@ -1,0 +1,53 @@
+/* Reset some basic elements */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+              margin: 0;
+              padding: 0;
+          }
+          
+          body {
+              font-family: Arial, sans-serif;
+              line-height: 1.6;
+              color: #333;
+              padding: 20px;
+              background-color: #f4f4f4;
+          }
+          
+          .container {
+              width: 80%;
+              margin: auto;
+              overflow: hidden;
+          }
+          
+          header {
+              background: #50b3a2;
+              padding: 10px;
+              color: white;
+          }
+          
+          header h1 {
+              display: inline-block;
+              font-size: 24px;
+          }
+          
+          nav {
+              float: right;
+          }
+          
+          nav ul {
+              list-style: none;
+              padding: 0;
+          }
+          
+          nav ul li {
+              display: inline;
+              margin-left: 10px;
+          }
+          
+          footer {
+              background: #50b3a2;
+              color: white;
+              text-align: center;
+              padding: 10px;
+              margin-top: 20px;
+          }
+          
